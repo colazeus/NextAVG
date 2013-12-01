@@ -46,43 +46,9 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Script\CommandQueue.cs" />
      <Compile Include="Assets\Script\GalgameEngines.cs" />
-     <Compile Include="Assets\Script\LuaScriptController.cs" />
-     <Compile Include="Assets\Tools\LuaCompiler.cs" />
-     <Compile Include="Assets\UniLua\ByteString.cs" />
-     <Compile Include="Assets\UniLua\Coder.cs" />
-     <Compile Include="Assets\UniLua\Common.cs" />
-     <Compile Include="Assets\UniLua\Do.cs" />
-     <Compile Include="Assets\UniLua\Dump.cs" />
-     <Compile Include="Assets\UniLua\LLex.cs" />
-     <Compile Include="Assets\UniLua\LuaAPI.cs" />
-     <Compile Include="Assets\UniLua\LuaAuxLib.cs" />
-     <Compile Include="Assets\UniLua\LuaBaseLib.cs" />
-     <Compile Include="Assets\UniLua\LuaBitLib.cs" />
-     <Compile Include="Assets\UniLua\LuaCoroLib.cs" />
-     <Compile Include="Assets\UniLua\LuaDebug.cs" />
-     <Compile Include="Assets\UniLua\LuaDebugLib.cs" />
-     <Compile Include="Assets\UniLua\LuaEncLib.cs" />
-     <Compile Include="Assets\UniLua\LuaFFILib.cs" />
-     <Compile Include="Assets\UniLua\LuaFile.cs" />
-     <Compile Include="Assets\UniLua\LuaFunc.cs" />
-     <Compile Include="Assets\UniLua\LuaIOLib.cs" />
-     <Compile Include="Assets\UniLua\LuaMathLib.cs" />
-     <Compile Include="Assets\UniLua\LuaObject.cs" />
-     <Compile Include="Assets\UniLua\LuaOsLib.cs" />
-     <Compile Include="Assets\UniLua\LuaPkgLib.cs" />
-     <Compile Include="Assets\UniLua\LuaState.cs" />
-     <Compile Include="Assets\UniLua\LuaStrLib.cs" />
-     <Compile Include="Assets\UniLua\LuaTable.cs" />
-     <Compile Include="Assets\UniLua\LuaTableLib.cs" />
-     <Compile Include="Assets\UniLua\OpCodes.cs" />
-     <Compile Include="Assets\UniLua\Parser.cs" />
-     <Compile Include="Assets\UniLua\TagMethod.cs" />
-     <Compile Include="Assets\UniLua\ULDebug.cs" />
-     <Compile Include="Assets\UniLua\Undump.cs" />
-     <Compile Include="Assets\UniLua\Util.cs" />
-     <Compile Include="Assets\UniLua\VM.cs" />
+     <Compile Include="Assets\Script\JFPackage.cs" />
+     <Compile Include="Assets\Script\JFSocket.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
